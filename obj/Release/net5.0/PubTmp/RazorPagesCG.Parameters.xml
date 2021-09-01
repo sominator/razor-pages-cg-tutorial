@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="RazorPagesCG" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\ultfl\\coding\\csharp\\RazorPagesCG\\obj\\Release\\net5\.0\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="RazorPagesCG.Data.RazorPagesCGContext" description="" value="Data Source=tcp:razorpagescgdbserver.database.windows.net,1433;Initial Catalog=RazorPagesCG_db;User Id=sominator@razorpagescgdbserver;Password=Ultf100d!" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\ultfl\\coding\\csharp\\RazorPagesCG\\obj\\Release\\net5\.0\\PubTmp\\EFSQLScripts\\RazorPagesCG\.Data\.RazorPagesCGContext\.sql$" />
+  </parameter>
+</parameters>

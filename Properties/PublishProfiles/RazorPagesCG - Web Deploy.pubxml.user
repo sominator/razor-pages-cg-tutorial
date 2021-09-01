@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA5sB9lrbkO0K5qSdpCFlrjwAAAAACAAAAAAAQZgAAAAEAACAAAAAuBrzWJ1ucTQ3qBFaJKr+v46LnKqEmW73M5jE1H52e+AAAAAAOgAAAAAIAACAAAAAWPPuuaNiU8QM6nF6sidHJ3QZVKtSIMuhkldZfV2JH1IAAAADnmwvQBSb9pv+NmSIi9ugteTk8UB53Of1SWIRi8z9twEZlMbPiFyEl7KolQpzGf4qYn1528j1YDXanNxbBI2CZm92p6AyOSAnncUscxoi+2+FwCvWCgtKBRK/PY7zvH0x9ItfRrEs5NxtsfkMm4FM6mo2nqnYF5HJ9jdmdAJXmMUAAAADxcYcL3+5+s+sDbZXbdWMZqKbVgOo0YSN9Ck7XBus5ZrovmK75wPLmxSyHD3fCuyqhv72KIHUdPSsAgVfPHyjS</EncryptedPassword>
+    <History>True|2021-05-12T22:22:04.7365427Z;True|2021-05-12T15:20:55.5698654-07:00;True|2021-05-12T15:12:36.7042843-07:00;True|2021-05-12T15:03:33.5909378-07:00;True|2021-05-12T14:45:50.8726105-07:00;True|2021-05-12T14:44:08.7755205-07:00;False|2021-05-12T14:43:36.3553744-07:00;False|2021-05-12T14:42:48.7677377-07:00;True|2021-05-12T14:36:15.2438902-07:00;True|2021-05-12T13:24:52.0311335-07:00;True|2021-05-12T13:21:49.9853512-07:00;True|2021-05-12T13:11:18.2261548-07:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="RazorPagesCGContext">
+      <Value>Data Source=tcp:razorpagescgdbserver.database.windows.net,1433%3bInitial Catalog=RazorPagesCG_db%3bUser Id=sominator%40razorpagescgdbserver%3bPassword=Ultf100d!</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="RazorPagesCG.Data.RazorPagesCGContext">
+      <Value>Data Source=tcp:razorpagescgdbserver.database.windows.net,1433%3bInitial Catalog=RazorPagesCG_db%3bUser Id=sominator%40razorpagescgdbserver%3bPassword=Ultf100d!</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
